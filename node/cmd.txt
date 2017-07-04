@@ -1,0 +1,2 @@
+to make package.json == npm init
+to install pacakge== npm install --save express
