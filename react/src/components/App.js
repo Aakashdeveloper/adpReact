@@ -1,10 +1,11 @@
 import React, {PropTypes} from 'react';
+import Header from './comman/Header'
 
 class App extends React.Component{
 	render()
 	{ return (
 		<div className="container-fluid">
-			<h3>Header will come here </h3>
+			<Header/>
 			{this.props.children}
 		</div>
 		);
