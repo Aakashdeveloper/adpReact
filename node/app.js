@@ -23,3 +23,35 @@ app.get("/about",function(req,res){
 app.listen(port, function(err){
 	console.log("running on port:"+ port)
 })
+
+a =10
+
+add(a);
+
+function add(a){
+	return a+a;
+}
+
+var a;
+
+
+var setage = function(a){
+	this.age = a;
+}
+
+var java = new Object();
+java.age = 10;
+
+
+
+
+
+
+java.setage =setage;
+
+
+var tom = new Object();
+tom.age = 10;
+tom.setage =setage
+
+
