@@ -1,9 +1,10 @@
 import React, {propTypes} from 'react';
 import {Link, IndexLink} from 'react-router';
+import '../../style/header.css'
 
 const Header = () =>{
 	return (
-		<nav className="navbar navbar-inverse">
+		<nav className="navbar navbar-custom">
 		  <div className="container-fluid">
 		    <div className="navbar-header">
 		      <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
